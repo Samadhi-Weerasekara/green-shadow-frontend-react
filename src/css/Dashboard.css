@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+
+}
+.sidebar {
+    background-color: #12372A;
+    color: #ADBC9F;
+    display: flex;
+    flex-direction: column;
+
+}
