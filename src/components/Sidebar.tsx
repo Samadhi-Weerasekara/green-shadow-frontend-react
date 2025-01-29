@@ -26,7 +26,7 @@ export const Sidebar = () => {
                 <ul className="space-y-3">
                     <li>
                         <Link
-                            to="/"
+                            to="/dashboard"
                             className="link flex items-center gap-3 p-2 rounded-md   hover:text-green-900 transition"
                         >
                             <FontAwesomeIcon icon={faHouse} />
@@ -62,7 +62,7 @@ export const Sidebar = () => {
                     </li>
                     <li>
                         <Link
-                            to="/user"
+                            to="/profile"
                             className="link flex items-center gap-3 p-2 rounded-md   hover:text-green-900 transition"
                         >
                             <FontAwesomeIcon icon={faUser} />
